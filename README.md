@@ -1,9 +1,9 @@
 John-Baskerville
 ================
-date
+03/11/14
 ----
 [Version 1](http://ingahampton.github.io/John-Baskerville/version-1.html)
-date
+10/11/14
 ----
 [Version 2] (http://127.0.0.1:59312/version-2.html)
 
