@@ -15,3 +15,7 @@ John-Baskerville
 ----
 [Version 4](http://ingahampton.github.io/John-Baskerville/version-4.html)
 [Version 5]()
+
+25/11/14
+
+[Version 6]()
