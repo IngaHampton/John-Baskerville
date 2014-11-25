@@ -46,7 +46,7 @@
         
         a:hover 
         {
-        color: #323232 ;
+        color: #2C221B ;
         }
         
         nav ul {
@@ -74,14 +74,14 @@
         font-size: 25px;
         letter-spacing: 1px; 
         text-align: center;
-        color: #323232;
+        color: #2C221B;
         }
 
         cite
         {
         margin-left: 40%;
         font-size: 10px;
-        color:#323232;
+        color: #2C221B;
         }
    
         li, ol
