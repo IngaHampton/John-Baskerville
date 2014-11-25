@@ -21,3 +21,5 @@ John-Baskerville
 ----
 
 [Version 6](http://ingahampton.github.io/John-Baskerville/version-6.html)
+
+[My version 6](http://ingahampton.github.io/John-Baskerville/my-version-6.html)
