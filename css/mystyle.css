@@ -4,6 +4,7 @@
         background-color: #F69C00; 
         font-family:'Libre Baskerville', serif;
         color: white;
+        text-align: justify;
         }
         
         h1{
@@ -28,6 +29,8 @@
         font-style: italic;
         font-size: 18px;
         text-align: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
         }
         
         .subtitle {
@@ -43,7 +46,7 @@
         
         a:hover 
         {
-        color: #3D3A36 ;
+        color: #323232 ;
         }
         
         nav ul {
@@ -71,14 +74,14 @@
         font-size: 25px;
         letter-spacing: 1px; 
         text-align: center;
-        color: #3D3A36;
+        color: #323232;
         }
 
         cite
         {
         margin-left: 40%;
         font-size: 10px;
-        color:#3D3A36;
+        color:#323232;
         }
    
         li, ol
@@ -90,6 +93,7 @@
         footer
         {
         border-top: 1px solid white;
-        padding-top: 30px
+        padding-top: 30px;
+        text-align: center;
         }
-
+     
