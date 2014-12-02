@@ -3,44 +3,50 @@
 <head>
 	<meta charset="utf-8" />
 	<title>John Baskerville</title>
-</head>
-    
-     <!--Internal stylesheet-->
+
+        <!--Internal stylesheet-->
 <style>
         
         body{
         background-color: #E9E9E9; 
-        font-family: baskerville, georgia, serif;
+        font-family:'Georgia', serif;
         color: #2A363B;
+        padding: 20px;
         }
         
-        h1{
-        font-size: 50px;
-        text-transform: uppercase;
-        letter-spacing: 20px; 
+        h1, h2 {
+        font-weight:normal;
         text-align: center;
+        margin:10px 0;
         }
         
+        h1 {
+        font-size:36px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        }
+    
         h2 {
         font-size: 28px;
-        text-align: center;
+        padding-bottom: 20px
         }
         
-        h1, h2, h3 {
-        font-weight: normal;
-        margin: 10px 0 10px 0;
-        }
-        
-        .intro {
+        h2.subtitle {
         font-style: italic;
-        font-size: 18px;
-        text-align: center;
+        padding-bottom: 10px;
+        font-size:20px;
+        }
+    
+        p {
+        line-height: 1.35em;
         }
         
-        .subtitle {
+        p.intro {
         font-style: italic;
+        text-align: center;
+        margin-top: 30px;
         }
-        
+    
         a {
         color: #966584;
         text-decoration: none;
@@ -49,8 +55,24 @@
         }
         
         a:hover {
-        text-decoration: underline;
+        text-decoration: none;
         color: white;
+        }
+       
+        blocknote {
+        font-style: italic;
+        font-size: 18px;
+        color:#888;
+        }
+       
+        cite {
+        color:#888;
+        font-size:12px;
+        }
+    
+        nav {
+        border-top: 1px solid #966584;
+        border-bottom: 1px solid #966584;
         }
         
         nav ul {
@@ -62,51 +84,46 @@
         display: inline;
         margin: 10px;
         }
-        
-        nav {
-        border-top: 1px solid #966584;
-        border-bottom: 1px solid #966584;
+    
+        section {
+        padding-bottom: 40px;
         }
         
         img {
         display: block;
         margin: 0 auto;
         }
+       
+        .line {
+        border-top: 1px solid #966584;
+        }
         
 </style>
+</head>
     
 <body>
-    
 <article id="top">
-    
 <header>
-
-<!--Title-->
 
     
 <hgroup>
-<h1>John Baskerville</h1>
-<h2 class= "subtitle">Letter Founder &amp; Master Printer</h2>
+        <h1>John Baskerville</h1>
+        <h2 class= "subtitle">Letter Founder &amp; Master Printer</h2>
 </hgroup>
     
 <nav>
-    
 <ul>
-    <li><a href="#the-man">The Man</a></li>
-    <li><a href="#the-typeface">The Typeface</a></li>
-    <li><a href="#mrs-eaves">Mrs Eaves</a></li>
-    
+        <li><a href="#the-man">The Man</a></li>
+        <li><a href="#the-typeface">The Typeface</a></li>
+        <li><a href="#mrs-eaves">Mrs Eaves</a></li>
 </ul>
-    
 </nav>
-    
 </header>
     
 <section>
 <p class="intro">
 <strong>John Baskerville (1706–1775)</strong> was an English businessman whose entrepreneurial attentions included japanning and papier-mâché; he is, however, best remembered as a typographer and printer, not least for the design of the eponymous typeface which, to this very day, bears his name.
 </p>
-    
 </section>
     
 
@@ -115,7 +132,7 @@
     
  <!--Image-->
 
-<img src="image/john_baskerville.jpg"alt="Portrait of John Baskerville"/>
+<img src="image/baskerville-theman2.png"alt="Portrait of John Baskerville" title="John Baskerville"/>
 
 <p>
 Baskerville was born in the village of Wolverley, near Kidderminster in Worcestershire, and worked as a printer in Birmingham. Baskerville printed works for the University of Cambridge and, although an atheist, printed a splendid folio bible in 1763. His typefaces were greatly admired by Benjamin Franklin, a printer and fellow member of the Royal Society of Arts, who took the designs back to the newly-created United States, where they were adopted for most federal government publishing.
@@ -126,24 +143,23 @@ Baskerville was responsible for numerous innovations in printing, paper and ink 
 </p>
 
 <blockquote>
-<p>
 “Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”
-</p>
-</blockquote>
 
-<p>
+<footer>
 <cite>
 —John Baskerville, preface to Milton, 1758 (Anatomy of a Typeface)
 </cite>
-</p>
-
+</footer>
+</blockquote>
 </section>
+    
+<a href="#top">Back to the Top</a>
 
 <section>
     
 <h2 id="the-typeface">The Typeface</h2>
     
-<img src="image/baskerville.jpg"alt="Baskerville font" width="70%" height="70%"/>
+<img src="image/baskerville-typeface.png"alt="Image of the Baskerville typeface" title="Baskerville Typeface"/>
     
 
 <p>
@@ -159,20 +175,6 @@ Baskerville’s work was criticized by jealous competitors and soon fell out of 
 </p>
 </section>
 
-
-<section>
-<h2 id="mrs-eaves">Mrs Eaves</h2>
-
-<p>
-Mrs Eaves is named after Sarah Eaves, the woman who became John Baskerville’s wife. As Baskerville was setting up his printing and type business, Mrs. Eaves moved in with him as a live-in housekeeper, eventually becoming his wife after the death of her first husband, Mr. Eaves. Mrs Eaves is a revival of the types of English printer and punchcutter John Baskerville, and is related to contemporary Baskerville typefaces.
-</p>
-
-<p>
-Like Baskerville, Mrs Eaves, cut by Zuzana Licko of Émigré, has a near vertical stress, departing from the Old Style model. Identifying characters, similar to Baskerville’s types, are the lowercase g with its open lower counter and swashlike ear. Both the roman and italic uppercase Q have a flowing swashlike tail. The uppercase C has serifs at top and bottom; there is no serif at the apex of the central junction in uppercase W; and the uppercase G has a sharp spur suggesting a vestigial serif.
-</p>
-
-</section>
-    
 <section>
 
 <li><strong>Hot type versions</strong></li>
@@ -199,14 +201,30 @@ Like Baskerville, Mrs Eaves, cut by Zuzana Licko of Émigré, has a near vertica
 <ol><a href="http://en.wikipedia.org/wiki/Bitstream">Bitstream</a></ol>
     
 </section>
-    
-<a href="#top">top</a>
 
-<footer>
+<a href="#top">Back to the Top</a>
+
+<section>
+<h2 id="mrs-eaves">Mrs Eaves</h2>
+    
+<img src="image/mrseaves-typeface.gif" alt="Mrs Eaves, John Baskerville's wife" title= "Mrs Eaves typeface"/>
+
+<p>
+Mrs Eaves is named after Sarah Eaves, the woman who became John Baskerville’s wife. As Baskerville was setting up his printing and type business, Mrs. Eaves moved in with him as a live-in housekeeper, eventually becoming his wife after the death of her first husband, Mr. Eaves. Mrs Eaves is a revival of the types of English printer and punchcutter John Baskerville, and is related to contemporary Baskerville typefaces.
+</p>
+
+<p>
+Like Baskerville, Mrs Eaves, cut by Zuzana Licko of Émigré, has a near vertical stress, departing from the Old Style model. Identifying characters, similar to Baskerville’s types, are the lowercase g with its open lower counter and swashlike ear. Both the roman and italic uppercase Q have a flowing swashlike tail. The uppercase C has serifs at top and bottom; there is no serif at the apex of the central junction in uppercase W; and the uppercase G has a sharp spur suggesting a vestigial serif.
+</p>
+
+</section>
+    
+<a href="#top">Back to the Top</a>
+    
+<footer class= "line">
 <small>
 <em>
-The content on this page is developed from original copy from Wikipedia and licensed under a Creative Commons Attribution-ShareAlike License, meaning you’re allowed to copy, distribute and transmit the work as long as it is attributed to the original authors. <strong><a href="https://github.com/IngaHampton" title="Github"> Html by Inga Hampton</a><a href="mailto:ingahampton@hotmail.co.uk" title="Send an email">Get in touch</a></strong>
-    
+The content on this page is developed from original copy from Wikipedia and licensed under a Creative Commons Attribution-ShareAlike License, meaning you’re allowed to copy, distribute and transmit the work as long as it is attributed to the original authors. <strong><a href="https://github.com/IngaHampton" title="Github"> Html by Inga Hampton</a> s- <a href="mailto:ingahampton@hotmail.co.uk" title="Send an email">Get in touch</a></strong>
 </em>
 </small>
 </footer>
