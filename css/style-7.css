@@ -1,47 +1,56 @@
-*{
-margin:0;
-padding:0;
-}
-        
+
+
+        * {
+        margin:0;
+        padding: 0;
+        font-size: 100%;
+        line-height: 1em;
+        }
+
         body{
         background-color: #E9E9E9; 
         font-family:'Libre Baskerville', serif;
         color: #2A363B;
+        padding: 20px;
         }
         
         h1{
         font-size: 50px;
         text-transform: uppercase;
-        letter-spacing: 20px; 
-        text-align: center;
+        letter-spacing: 4px; 
         }
         
         h2 {
         font-size: 28px;
         text-align: center;
+        padding-bottom: 20px;
         }
         
-        h1, h2, h3 {
+        h1, h2 {
         font-weight: normal;
+        text-align: center;
         margin: 10px 0 10px 0;
         }
-
-        p.li { 
-        line-height: 1.35px;
-        margin-bottom:10px
+        
+        h2.subtitle {
+        font-style: italic;
+        padding-bottom: 10px;
+        font-size: 25px;
         }
 
+        p,li {
+        line-height: 1.35em;
+        margin-bottom:10px;
+        }
+        
         p.intro {
         font-style: italic;
         text-align: center;
         margin-top: 30px;
-        font-size: 20px;
+        font-size: 15px;
+    
         }
-        
-        .subtitle {
-        font-style: italic;
-        }
-        
+    
         a {
         color: #966584;
         text-decoration: none;
@@ -52,18 +61,30 @@ padding:0;
         a:hover {
         color: white;
         }
-
+       
         blockquote {
-        font style: italic;
-        font-size: 18px;
-        color: white;
-            margin: 30px;
+        font-style: italic;
+        font-size: 30px;
+        color:#888;
+        text-align: center;
         }
        
-        cite 
-        {
-        color:white;
-        font-size: 18px;
+        cite {
+        color:#888;
+        font-size:12px;
+        }
+  
+        small {
+        font-size: 10px;
+        color: #888;
+        }
+
+        ul { padding: 10px;
+        }
+    
+        nav {
+        border-top: 1px solid #966584;
+        border-bottom: 1px solid #966584;
         }
         
         nav ul {
@@ -74,36 +95,32 @@ padding:0;
         nav ul li {
         display: inline;
         margin: 10px;
-        }
         
-        nav {
+        }
+    
+        section {
+        padding-bottom: 40px;
+        }
+
+       
+        .line {
         border-top: 1px solid #966584;
-        border-bottom: 1px solid #966584;
         }
-
-        p{
-        line-height:1.4;
-        padding:10px}
         
 
-        small
-        { font-size: 10px;
-        colour: red;}
-
-        
         img {
         display: block;
-        margin: 0 auto; /* this sets the margin top and bottom to 0px. the auto on the left and right will automatically calculate the space either side and split it evenly between the two margins. */
+        margin: 0 auto;
         padding: 15px;
-        
-        max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
+        max-width: 100%;
         }
-        
-/* layout */
+
+        li, ol {
+        text-align: center;
+        }
 
         article {
-
-        min width: 300px;
-        max width:760px;
+        min-width: 300px;
+        max-width: 760px;
         margin: 20px auto;
         }
