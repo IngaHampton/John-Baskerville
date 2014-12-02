@@ -5,23 +5,23 @@
         font-family:'Libre Baskerville', serif;
         color: white;
         text-align: justify;
+        padding: 20px;
         }
         
         h1{
         font-size: 50px;
         text-transform: uppercase;
         letter-spacing: 20px; 
-        text-align: center;
         }
         
         h2 {
         font-size: 28px;
-        text-align: center;
         padding-top: 30px;
         }
-        
-        h1, h2, h3 {
+
+        h1, h2 {
         font-weight: normal;
+        text-align: center;
         margin: 10px 0 10px 0;
         }
         
@@ -29,12 +29,15 @@
         font-style: italic;
         font-size: 18px;
         text-align: center;
-        padding-bottom: 30px;
         padding-top: 30px;
         }
         
-        .subtitle {
+        h2.subtitle {
         font-style: italic;
+        }
+
+        p {
+        line-height: 1.35em;
         }
         
         a {
@@ -63,9 +66,15 @@
         border-bottom: 1px solid white;
         }
         
+        section {
+        padding-bottom: 40px;
+        }
+
         img {
         display: block;
         margin: 0 auto;
+        padding-bottom: 10px;
+        padding top: 10px;
         }
     
         blockquote
@@ -92,8 +101,10 @@
 
         footer
         {
-        border-top: 1px solid white;
         padding-top: 30px;
         text-align: center;
         }
-     
+
+        .line {
+        border-top: 1px solid white;
+        }
