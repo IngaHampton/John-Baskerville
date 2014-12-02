@@ -28,4 +28,6 @@ John-Baskerville
 ----
 [Version 7](http://ingahampton.github.io/John-Baskerville/version-7.html) - Added Reset and Layout styles.
 
+[My version 7](http://ingahampton.github.io/John-Baskerville/my-version-7.html) - custom CSS Version.
+
 
