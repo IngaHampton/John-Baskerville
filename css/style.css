@@ -4,13 +4,13 @@
         background-color: #E9E9E9; 
         font-family:'Libre Baskerville', serif;
         color: #2A363B;
+        padding: 20px;
         }
         
         h1{
         font-size: 50px;
         text-transform: uppercase;
-        letter-spacing: 20px; 
-        text-align: center;
+        letter-spacing: 4px; 
         }
         
         h2 {
@@ -18,8 +18,9 @@
         text-align: center;
         }
         
-        h1, h2, h3 {
+        h1, h2 {
         font-weight: normal;
+        text-align: center;
         margin: 10px 0 10px 0;
         }
         
@@ -29,10 +30,21 @@
         text-align: center;
         }
         
-        .subtitle {
+        h2.subtitle {
         font-style: italic;
+        padding-bottom: 10px;
+        }
+
+        p {
+        line-height: 1.35em;
         }
         
+        p.intro {
+        font-style: italic;
+        text-align: center;
+        margin-top: 30px;
+        }
+    
         a {
         color: #966584;
         text-decoration: none;
@@ -41,8 +53,23 @@
         }
         
         a:hover {
-        text-decoration: underline;
         color: white;
+        }
+       
+        blocknote {
+        font-style: italic;
+        font-size: 18px;
+        color:#888;
+        }
+       
+        cite {
+        color:#888;
+        font-size:12px;
+        }
+    
+        nav {
+        border-top: 1px solid #966584;
+        border-bottom: 1px solid #966584;
         }
         
         nav ul {
@@ -54,14 +81,20 @@
         display: inline;
         margin: 10px;
         }
-        
-        nav {
-        border-top: 1px solid #966584;
-        border-bottom: 1px solid #966584;
+    
+        section {
+        padding-bottom: 40px;
         }
-        
+
+
         img {
         display: block;
         margin: 0 auto;
+        padding-bottom: 10px;
         }
+
+        .line {
+        border-top: 1px solid #966584;
+        }
+        
     
