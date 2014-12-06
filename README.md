@@ -34,6 +34,6 @@ John-Baskerville
 ----
 [Version 8](http://ingahampton.github.io/John-Baskerville/version 8.html)
 
-##[JOHN BASKERVILLE](http://ingahampton.github.io/John-Baskerville/version-8-introduction.html)
+###[JOHN BASKERVILLE](http://ingahampton.github.io/John-Baskerville/version-8-introduction.html)
 
 
