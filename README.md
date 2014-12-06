@@ -32,7 +32,7 @@ John-Baskerville
 
 8/12/14
 ----
-[Version 8](http://ingahampton.github.io/John-Baskerville/version-8.html)
+[Version 8](http://ingahampton.github.io/John-Baskerville/version 8.html)
 
 ##[JOHN BASKERVILLE](http://ingahampton.github.io/John-Baskerville/version-8-introduction.html)
 
