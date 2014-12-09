@@ -265,6 +265,16 @@ p
         width: 100%;
         height: 70px;
         }
+#john {
+        height: 30%px;
+        width: 30%px;
+        margin: 0 auto;
+    background: url(../image/john-baskerville-the-man1.png);
+        background-repeat: no-repeat;
+}
+#john:hover {
+        background:url(../image/john-baskerville-speech-bubble.png);
+}
 
 .quote
         {
