@@ -94,9 +94,10 @@ a:hover
 
 img 
         { 
-        width:25%;
-        height:25%;
+        width:22%;
+        height:22%;
         min-width: 250px;
+        padding-bottom: 20px;
         }
 
     
